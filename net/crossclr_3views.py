@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torchlight import import_class
+from torchlight.torchlight.io import import_class
 
 
 class CrosSCLR(nn.Module):

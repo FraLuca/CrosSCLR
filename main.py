@@ -7,8 +7,8 @@ import zipfile
 import time
 
 # torchlight
-import torchlight
-from torchlight import import_class
+import torchlight.torchlight
+from torchlight.torchlight.io import import_class
 
 from processor.processor import init_seed
 init_seed(0)
